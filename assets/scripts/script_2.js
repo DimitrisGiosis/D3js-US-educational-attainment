@@ -179,13 +179,13 @@ d3.json("assets/data/us.json", function(data) {
                     color = d3.scaleLinear().domain([0, 1/4*5000000, 2/4*5000000, 3/4*5000000, 5000000]).range(["#ef9999", "#e8b9ae", "#d8cdb3", "#6f94a3"]);
                     return d["Total College"];
                 } else if (treeSumSortType == "percent") {
-                    color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#73c3bf", "#a1d8c8", "#cbe0a7", "#f2db84"]);
+                    color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#ef9999", "#e8b9ae", "#d8cdb3", "#6f94a3"]);
                     return d["Percent College"];
                 } else if (treeSumSortType == "male") {
-                    color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#73c3bf", "#a1d8c8", "#cbe0a7", "#f2db84"]);
+                    color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#ef9999", "#e8b9ae", "#d8cdb3", "#6f94a3"]);
                     return d["Percent College - Male"];
                 } else {
-                    color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#73c3bf", "#a1d8c8", "#cbe0a7", "#f2db84"]);
+                    color = d3.scaleLinear().domain([0, 1/4*50, 2/4*50, 3/4*50, 50]).range(["#ef9999", "#e8b9ae", "#d8cdb3", "#6f94a3"]);
                     return d["Percent College - Female"];
                 }
 
