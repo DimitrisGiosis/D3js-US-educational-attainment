@@ -97,6 +97,7 @@ label{
   font-family: "Muli";
   font-size: 20px;
   cursor: pointer;
+  border-style: inset;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
